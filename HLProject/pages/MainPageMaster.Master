@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPageMaster.Master.cs" Inherits="HLProject.pages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../stylesheets/SSgameselection.css">
+    <link href="../stylesheets/SSuniversal.css" rel="stylesheet"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+    <div class="maintitle">
+        <p class="herotitle"><b>The Half Life Series</b></p>
+        <p class="herotext">
+            The Half Life Franchise is one of the most influential and respected video game series ever made.
+            It's development was heavily responsible for the development of the modern FPS (First Person Shooter) genre and making it into what it is today.
+            The series boasts 5 full games and 4 expansions, not including the ports of the various games.
+        </p>
+    </div>  
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     <div class="contactsbar">
+        <p class="contacttext">
+            Uri Fischer <br />
+            05XXXXXXXX<br />
+            uri296@by.nzed.org.il<br />
+        </p>
+        <p class="contacttext">
+            All images are property of <a href="https://store.steampowered.com/app/70/HalfLife/">Valve Corporation</a>
+        </p>
+    </div>
+        </div>
+    </form>
+
+</body>
+</html>

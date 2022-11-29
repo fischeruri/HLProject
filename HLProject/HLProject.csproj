@@ -92,25 +92,31 @@
     <Content Include="media\hlaimage2.jpg" />
     <Content Include="media\hlaimage3.jpg" />
     <Content Include="media\indeximage.jpg" />
-    <Content Include="pages\halflife1.html" />
-    <Content Include="pages\halflife2.html" />
-    <Content Include="pages\halflife2e1.html" />
-    <Content Include="pages\halflife2e2.html" />
-    <Content Include="pages\halflifea.html" />
-    <Content Include="pages\index.html" />
     <Content Include="pages\index.aspx" />
+    <Content Include="pages\HalfLife1.aspx" />
+    <Content Include="pages\HalfLife2.aspx" />
+    <Content Include="pages\HalfLife2E1.aspx" />
+    <Content Include="pages\HalfLife2E2.aspx" />
+    <Content Include="pages\halfLifeA.aspx" />
     <Content Include="stylesheets\SSgamepage.css" />
     <Content Include="stylesheets\SSgameselection.css" />
     <Content Include="stylesheets\SSuniversal.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pages\universalMaster.Master.cs">
-      <DependentUpon>universalMaster.Master</DependentUpon>
+    <Compile Include="pages\gamePagemaster.Master.cs">
+      <DependentUpon>gamePagemaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pages\universalMaster.Master.designer.cs">
-      <DependentUpon>universalMaster.Master</DependentUpon>
+    <Compile Include="pages\gamePagemaster.Master.designer.cs">
+      <DependentUpon>gamePagemaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\MainPageMaster.Master.cs">
+      <DependentUpon>MainPageMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\MainPageMaster.Master.designer.cs">
+      <DependentUpon>MainPageMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="pages\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -119,11 +125,47 @@
     <Compile Include="pages\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\HalfLife1.aspx.cs">
+      <DependentUpon>HalfLife1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\HalfLife1.aspx.designer.cs">
+      <DependentUpon>HalfLife1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\HalfLife2.aspx.cs">
+      <DependentUpon>HalfLife2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\HalfLife2.aspx.designer.cs">
+      <DependentUpon>HalfLife2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\HalfLife2E1.aspx.cs">
+      <DependentUpon>HalfLife2E1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\HalfLife2E1.aspx.designer.cs">
+      <DependentUpon>HalfLife2E1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\HalfLife2E2.aspx.cs">
+      <DependentUpon>HalfLife2E2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\HalfLife2E2.aspx.designer.cs">
+      <DependentUpon>HalfLife2E2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\halfLifeA.aspx.cs">
+      <DependentUpon>halfLifeA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\halfLifeA.aspx.designer.cs">
+      <DependentUpon>halfLifeA.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="pages\universalMaster.Master" />
+    <Content Include="pages\MainPageMaster.Master" />
+    <Content Include="pages\gamePagemaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

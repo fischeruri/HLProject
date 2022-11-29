@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="gamePagemaster.Master.cs" Inherits="HLProject.pages.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../stylesheets/SSgamepage.css" rel="stylesheet" />
+    <link href="../stylesheets/SSuniversal.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="title">
+        <div class="titlespacer"></div>
+        <div class="navruler">
+            <div class="navgame" onclick="location.href='../pages/HalfLife1.aspx';">
+                <p class="navtext">Half Life</p>
+            </div>
+            <div class="navborder"></div>
+            <div class="navgame" onclick="location.href='../pages/HalfLife2.aspx';">
+                <p class="navtext">Half Life 2</p>
+            </div>
+            <div class="navborder"></div>
+            <div class="navgame" onclick="location.href='../pages/halfLife2E1.aspx';">
+                <p class="navtext">Half Life 2: Episode 1</p>
+            </div>
+            <div class="navborder"></div>
+            <div class="navgame" onclick="location.href='../pages/HalfLife2E2.aspx';">
+                <p class="navtext">Half Life 2: Episode 2</p>
+            </div>
+            <div class="navborder"></div>
+            <div class="navgame" onclick="location.href='../pages/HalfLifeA.aspx';">
+                <p class="navtext">Half Life: Alyx</p>
+            </div>
+        </div>
+    </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    <div class="homebutton" onclick="location.href='../pages/index.aspx';">
+        <p class="hometext">Back To Home</p>
+    </div>
+    <div class="contactsbar">
+        <p class="contacttext">
+            Uri Fischer <br />
+            05XXXXXXXX<br />
+            uri296@by.nzed.org.il<br />
+        </p>
+        <p class="contacttext">
+            Banner Logo Credit:<br />
+            <a href="https://commons.wikimedia.org/wiki/File:Half-Life_lambda_logo.svg">Valve Software</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+        </p>
+        <p class="contacttext">
+            All images are property of <a href="https://store.steampowered.com/app/70/HalfLife/">Valve Corporation</a>
+        </p>
+    </div>
+        </div>
+    </form>
+</body>
+</html>

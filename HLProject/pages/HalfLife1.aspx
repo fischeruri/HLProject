@@ -1,39 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="../stylesheets/SSuniversal.css">
-    <link rel="stylesheet" href="../stylesheets/SSgamepage.css">
-</head>
-<body>
-    <div class="title">
-        <div class="titlespacer"></div>
-        <div class="navruler">
-            <div class="navgame" onclick="location.href='../pages/halflife1.html';">
-                <p class="navtext">Half Life</p>
-            </div>
-            <div class="navborder"></div>
-            <div class="navgame" onclick="location.href='../pages/halflife2.html';">
-                <p class="navtext">Half Life 2</p>
-            </div>
-            <div class="navborder"></div>
-            <div class="navgame" onclick="location.href='../pages/halflife2e1.html';">
-                <p class="navtext">Half Life 2: Episode 1</p>
-            </div>
-            <div class="navborder"></div>
-            <div class="navgame" onclick="location.href='../pages/halflife2e2.html';">
-                <p class="navtext">Half Life 2: Episode 2</p>
-            </div>
-            <div class="navborder"></div>
-            <div class="navgame" onclick="location.href='../pages/halflifea.html';">
-                <p class="navtext">Half Life: Alyx</p>
-            </div>
-        </div>
-    </div>
-
-    <img class="gamepageheader" src="../media/Half-Life_text_cc.png" />
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/gamePagemaster.Master" AutoEventWireup="true" CodeBehind="HalfLife1.aspx.cs" Inherits="HLProject.pages.WebForm2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <img class="gamepageheader" src="../media/Half-Life_text_cc.png" />
     <div class="pageheadcontainer">
         <p class="pageheadtext">
             Half Life (1998), Valve's debut game, was recieved as a smashing success. It was hailed by critics as its mechanics and gunplay were revolutionary at the time,
@@ -132,24 +101,4 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/AaXsb5kS31s" class="videomember" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JoV9o6b91Sc" class="videomember" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
-    <div class="homebutton" onclick="location.href='../pages/index.html';">
-        <p class="hometext">Back To Home</p>
-    </div>
-
-    <div class="contactsbar">
-        <p class="contacttext">
-            Uri Fischer <br />
-            05XXXXXXXX<br />
-            uri296@by.nzed.org.il<br />
-        </p>
-        <p class="contacttext">
-            Banner Logo Credit:<br />
-            <a href="https://commons.wikimedia.org/wiki/File:Half-Life_lambda_logo.svg">Valve Software</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
-        </p>
-        <p class="contacttext">
-            All images are property of <a href="https://store.steampowered.com/app/70/HalfLife/">Valve Corporation</a>
-        </p>
-    </div>
-</body>
-</html>
+</asp:Content>
