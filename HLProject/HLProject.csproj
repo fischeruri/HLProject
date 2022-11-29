@@ -98,6 +98,8 @@
     <Content Include="pages\HalfLife2E1.aspx" />
     <Content Include="pages\HalfLife2E2.aspx" />
     <Content Include="pages\halfLifeA.aspx" />
+    <Content Include="pages\LoginPage.aspx" />
+    <Content Include="stylesheets\SSLogin.css" />
     <Content Include="stylesheets\SSgamepage.css" />
     <Content Include="stylesheets\SSgameselection.css" />
     <Content Include="stylesheets\SSuniversal.css" />
@@ -159,6 +161,13 @@
     </Compile>
     <Compile Include="pages\halfLifeA.aspx.designer.cs">
       <DependentUpon>halfLifeA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
