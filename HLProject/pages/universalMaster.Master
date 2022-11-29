@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="universalMaster.Master.cs" Inherits="HLProject.pages.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../stylesheets/SSuniversal.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     <div class="contactsbar">
+        <p class="contacttext">
+            Uri Fischer <br />
+            05XXXXXXXX<br />
+            uri296@by.nzed.org.il<br />
+        </p>
+        <p class="contacttext">
+            Banner Logo Credit:<br />
+            <a href="https://commons.wikimedia.org/wiki/File:Half-Life_lambda_logo.svg">Valve Software</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+        </p>
+        <p class="contacttext">
+            All images are property of <a href="https://store.steampowered.com/app/70/HalfLife/">Valve Corporation</a>
+        </p>
+    </div>
+        </div>
+    </form>
+
+</body>
+</html>
