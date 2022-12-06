@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="HLProject.pages.WebForm7" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUpPage.aspx.cs" Inherits="HLProject.pages.SignUpPage" %>
 
 <!DOCTYPE html>
 
@@ -34,7 +34,7 @@
                 <td><input type="password" id="pField" name="pField"/></td>
             </tr>
             <tr>
-                <td><input type="text" id="errorField" name="errorField" disabled="disabled"/></td>
+                <td><input type="hidden" id="errorField" name="errorField" disabled="disabled"/></td>
             </tr>
         </table>
         <button class="LoginFormButton"><p>Submit</p></button>
