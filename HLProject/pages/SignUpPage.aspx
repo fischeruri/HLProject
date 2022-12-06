@@ -34,7 +34,7 @@
                 <td><input type="password" id="pField" name="pField"/></td>
             </tr>
             <tr>
-                <td><input type="hidden" id="errorField" name="errorField" disabled="disabled"/></td>
+                <td><input display="none" id="errorField" name="errorField" disabled="disabled"/></td>
             </tr>
         </table>
         <button class="LoginFormButton"><p>Submit</p></button>
