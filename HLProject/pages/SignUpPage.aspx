@@ -7,30 +7,34 @@
     <title></title>
     <link href="../stylesheets/SSLogin.css" rel="stylesheet" />
     <link href="../stylesheets/SSuniversal.css" rel="stylesheet" />
+    <script src="../scripts/signUpScript.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" onsubmit="return checkSignUpForm()">
     <div class="LoginFormPageContainer">
         <table class="loginFormWrapper">
             <tr>
                 <td><p class="LoginFormText">User Name:</p></td>
-                <td><input type="text" id="UserNamefield" name="UserNamefield"/></td>
+                <td><input type="text" id="uNameField" name="uNameField"/></td>
             </tr>
             <tr>
                 <td><p class="LoginFormText">First Name:</p></td>
-                <td><input type="text" id="FirstNamefield" name="FirstNamefield"/></td>
+                <td><input type="text" id="fiNameField" name="fiNameField"/></td>
             </tr>
             <tr>
                 <td><p class="LoginFormText">Family Name:</p></td>
-                <td><input type="text" id="FamilyNamefield" name="FamilyNamefield"/></td>
+                <td><input type="text" id="faNameField" name="faNameField"/></td>
             </tr>
             <tr>
                 <td><p class="LoginFormText">Email:</p></td>
-                <td><input type="text" id="Emailfield" name="Emailfield"/></td>
+                <td><input type="text" id="eField" name="eField"/></td>
             </tr>
             <tr>
                 <td><p class="LoginFormText">Password:</p></td>
-                <td><input type="password" id="Passwordfield" name="Passwordfield"/></td>
+                <td><input type="password" id="pField" name="pField"/></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="errorField" name="errorField" disabled="disabled"/></td>
             </tr>
         </table>
         <button class="LoginFormButton"><p>Submit</p></button>
