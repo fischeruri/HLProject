@@ -22,16 +22,16 @@
                 <td><input type="text" id="fiNameField" name="fiNameField"/></td>
             </tr>
             <tr>
-                <td><p class="LoginFormText">Family Name:</p></td>
-                <td><input type="text" id="faNameField" name="faNameField"/></td>
-            </tr>
-            <tr>
                 <td><p class="LoginFormText">Email:</p></td>
                 <td><input type="text" id="eField" name="eField"/></td>
             </tr>
             <tr>
                 <td><p class="LoginFormText">Password:</p></td>
                 <td><input type="password" id="pField" name="pField"/></td>
+            </tr>
+            <tr>
+                <td><p class="LoginFormText">Password Confirmation:</p></td>
+                <td><input type="password" id="pcField" name="pcField"/></td>
             </tr>
             <tr>
                 <td><input display="none" id="errorField" name="errorField" disabled="disabled"/></td>
