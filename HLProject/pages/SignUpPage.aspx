@@ -37,7 +37,7 @@
                 <td><input display="none" id="errorField" name="errorField" disabled="disabled"/></td>
             </tr>
         </table>
-        <button class="LoginFormButton"><p>Submit</p></button>
+        <input type="submit" value="Send" class="LoginFormButton" id="submitButton" name="submitButton"/>
     </div>
     </form>
 </body>
