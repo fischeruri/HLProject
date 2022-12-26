@@ -98,6 +98,7 @@
     <Content Include="pages\HalfLife2E1.aspx" />
     <Content Include="pages\HalfLife2E2.aspx" />
     <Content Include="pages\halfLifeA.aspx" />
+    <Content Include="pages\LogInPage.aspx" />
     <Content Include="pages\SignUpPage.aspx" />
     <Content Include="scripts\signUpScript.js" />
     <Content Include="stylesheets\SSLogin.css" />
@@ -113,6 +114,13 @@
     </Compile>
     <Compile Include="pages\gamePagemaster.Master.designer.cs">
       <DependentUpon>gamePagemaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\LogInPage.aspx.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\LogInPage.aspx.designer.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\MainPageMaster.Master.cs">
       <DependentUpon>MainPageMaster.Master</DependentUpon>
